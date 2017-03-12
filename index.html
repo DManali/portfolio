@@ -9,14 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>1 Col Portfolio - Start Bootstrap Template</title>
+    <title>Manali Desai - User Experience Designer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,16 +41,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Manali Desai</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="resume/Manali Desai_User_Experience_Designer_Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#aboutMe">About me</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -63,109 +68,84 @@
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Heading -->
-        <div class="row">
+        <!-- Page Header -->
+        <div class="row" id="portfolio">
             <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
-                </h1>
+               <h2 class="page-header text-center" id="Portfolio">Design Projects
+                    <small>- Contribution towards HCI classes, different ways of solving problems of different domains</small>
+                </h2>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Project One -->
+        <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/mdt.html">
+                    <img class="img-thumbnail center-block" src="images/mdt/mdt.png" alt="Moral Distress Thermometer" style="height:250px">
                 </a>
+                <h3 class="text-center">
+                    <a href="projects/mdt.html">iMOD</a>
+                </h3>
+                <h4>Capstone project for <a href="http://www.fairbankscenter.org/about/faculty/lucia-d-wocial">Lucia D. Wocial</a>, School of Nursing</h4>
+                <p class="text-justify">Dr. Lucia aims in providing a healthy environment where critical care nurses make their optimal contributions to patients and families. In this attempt they are looking to develop a website which will enable the nurses to record the level of distress they have been experiencing during the past week.</p>
+               <!--
+                <a class="btn btn-info text-center center-block" href="projects/mdt.html">Work in progress... <span class="glyphicon glyphicon-chevron-right"></span></a>
+                -->
+            </div> <!-- Project1 MDT div ends -->
+
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive center-block" src="images/visualAnalytics/vis homepage.png" alt="Visual Analytics - Which movie should I watch tonight?" style="height:250px">
+                </a>
+                <h3 class="text-center">
+                    <a href="#">Which movie should I watch tonight?</a>
+                </h3>
+                <h4>Final project for Interactive visual analytics class</h4>
+                <p class="text-justify">A question that almost all of us face on Friday evenings. Utilized the class learnings to evaluate two of the movie visualizations presented in the "Visualize Hollywood Challenge" by "Information is Beautiful" and we proposed a new design apparoch to search a movie to watch based on the User study</p>
+                <!--
+                <a class="btn btn-info text-center center-block" href="#">Click here for more details <span class="glyphicon glyphicon-chevron-right"></span></a>
+                -->
+            </div><!-- Project2 Visualization div ends -->
+
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive center-block" src="images/tables/Courses Registered.png" alt="TABLES" style="height:250px; ">
+                </a>
+                <h3 class="text-center">
+                    <a href="#">TABLES</a>
+                </h3>
+                <h4>Final project of Prototyping Class - For MAC Lab</h4>
+                <p class="text-justify">Tutor Assisted Browser-based Learning Environment for Students (TABLES) is a collaborative online synchronous learning center for learning assistance. Our proposed project is intended to recreate a MATH tutor center which provides guidance and assistance to students on mathematics concepts. </p>
+                
+                <!--
+                <a class="btn btn-btn btn-info text-center center-block" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                -->
+
             </div>
-            <div class="col-md-5">
-                <h3>Project One</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
+        </div> <!-- Project3 TABLES div ends -->
         <!-- /.row -->
 
-        <hr>
-
-        <!-- Project Two -->
+        <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                    <img class="img-responsive center-block" src="images/ojs/manuscript_published.jpg" alt="Open Journal System" style="height:250px">
                 </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Two</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
+                <h3 class="text-center">
+                    <a href="#">Open Journal System</a>
+                </h3>
+                <h4>For IUPUI University library Journals</h4>
+                <p class="text-justify">Understanding and managing the flow of Journals in the process of publishing was a tedious task for the Journal Editors with the help of the existing Journal website built using OJS Framework</p>
+                <!--
+                <a class="btn btn-info text-center center-block" href="#"> More details <span class="glyphicon glyphicon-chevron-right"></span></a>
+                -->
+            </div> <!-- Project4 OJS div ends -->
         </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Three</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
-        <div class="row">
-
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Four</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Five -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Five</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
+        
         <!-- Pagination -->
         <div class="row text-center">
+          <!--
             <div class="col-lg-12">
                 <ul class="pagination">
                     <li>
@@ -191,20 +171,77 @@
                     </li>
                 </ul>
             </div>
+            -->
         </div>
+
         <!-- /.row -->
 
         <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+        <!-- Page Header -->
+        <div class="row"  id="aboutMe">
+            <div class="col-md-12">
+               <h2 class="page-header bg-danger text-center">About Me
+                    <small></small>
+                </h2>
+            </div>
+        </div>
+        <!-- /.row -->
+        
+        <div class="row aboutMe">
+            <div class="col-md-3">
+                <img class="img-responsive center-block" src="images/mdesai.jpg" alt="Manali in Goa Carnival"
+                    title="What I like doing" style="height: 250px;">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p class="text-justify"> 
+                Hi There! I'm Manali - User Experience Designer and a Frontend Developer. Soon to graduate (May 2017) Master of Science program in Human Computer Interaction from Indiana University, Indianapolis. I am actively looking for full time positions as a User Experience Designer. 
+                </p>
+                <p class="text-justify">
+                I like minimalist design approach of iOS designs as well as intuitive designs of Andriod. Can't to wait to get my hands dirty in designing for Wearable Devices and Augmented Reality. My domain interests are Healthcare and Hospitality. I believe there is a lot of data lying around for people to give it meaning with data visualization. To keep my brain sharp, I practice frontend development skills by taking up development work in the COMET Lab work while working as a Research Assistant.
+                </p>
+                <p class="text-justify">
+                A Bharatnatyam(Indian Classical Dance form) Dancer, fitness concious and a coffee lover Girl! I like to interact with people from different cultures, enjoy the local food and dance, understand their behaviour.
+                </p>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <a href="https://www.linkedin.com/in/manalid" target="_blank">Manali @LinkedIn</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a target="_blank" class="glyphicon glyphicon-envelope" href="  mailto:manali76@gmail.com"> manali76@gmail.com</a>
+                        </div  class="col-xs-3">
+                        <div class="col-md-4">
+                            <a target="_blank" class="glyphicon glyphicon-phone"> (1)321-525-5762</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- /.row -->
+        
+        </div>
+
+
+        <hr>
+        <div class="row">
+            <div class="col-xs-12">                
+                <a href="#" class="btn btn-default pull-right"><span class="glyphicon glyphicon-chevron-up"></span> To Top</a>                
+            </div>
+        </div>
+        
+        
+
+        <!-- Footer -->
+                <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="text-zone">
+                    Developer - Manali Desai, credits to <a href="http://bootswatch.com/paper/" target="_blank">Paper theme for Bootstrap,  
+                    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                </p>
+            </div>
         </footer>
+
 
     </div>
     <!-- /.container -->
