@@ -52,6 +52,11 @@ footer {
 	font-size: 12pt;
 }
 
+.toTop{
+	position: fixed;
+	bottom: 0;
+}
+
 .aboutMe{
 	margin: 0 auto;
 }
