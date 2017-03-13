@@ -40,6 +40,11 @@ p{
     margin-bottom: 25px;
 }
 
+.subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
 footer {
  	font-family: 'Roboto', sans-serif;   
     font-weight: 300;
