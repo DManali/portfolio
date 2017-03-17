@@ -65,3 +65,33 @@ footer {
 .aboutMe{
 	margin: 0 auto;
 }
+
+.iconList{
+	list-style: none;
+}
+
+.projectImage {
+	
+	height: 250px;
+	display: block;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.projectTitle{
+	color: #00ACC1;
+}
+
+.sectionTitle{
+	color: #0097A7;
+	font-weight: bold; 
+}
+
+.iconListText{
+	color: #ff6600;
+	font-weight: bold; 	
+}
+
+a:active{
+	color: #FFCC00;
+}
