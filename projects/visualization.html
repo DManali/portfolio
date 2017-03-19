@@ -72,35 +72,70 @@
        <!-- Page Header -->
         <div class="row" id="mdt">
             <div class="col-lg-12">
-               <h1 class="page-header" id="Portfolio">iMOD
-                    <small>- inventory of Moral Distress</small>
-                </h1>
+               <h1 class="page-header" id="Portfolio">Which Movie Should I Watch Tonight? 
+                    <p class="pull-right"> <br>- a problem that each one of face solved using principles of Visual Analytics </p>
+               </h1>
+
             </div>            
         </div> <!-- /.row page header -->
-
         
         <div class="row">    
-            <div class="col-md-offset-1 col-lg-6 pull-left">
-                <img class="img-responsive center-block" src="../images/mdt/aacn4Model.PNG"/>
-            </div>
-            <div class="col-md-offset-1 col-lg-3 pull-right">
-                <h4 style="color: #009999; font-weight: bold;"> My Contribution </h4>
-                <p> Literature Review </p>
-                <p> Interviews </p>
-                <p> Data Modelling </p>
-                <p> Concept Generation - Strategic Solution </p>
-                <p> Prototyping </p>
-                <p> Usability Evaluation </p>
-            </div>
-            <div class="col-md-offset-1 col-lg-3 pull-right">
-                <h4 style="color: #009999; font-weight: bold;"> Download Resources </h4>
-                <p><a href="../reports/Report_Moral_Distress_Thermometer.pdf" target="_blank">Report of the work done so far</a></p>
+            <div class="col-md-offset-1 col-lg-10">
+
+                <div class="col-lg-5 center-block pull-left">
+                    <img class="img-responsive center-block" src="../images/visualAnalytics/vis1.PNG"/>
+                    <br>
+                    <p class="text-center">
+                        <a href="http://iibh.apphb.com/" target="_blank"> What are these pretty circles? </a>
+                        <br>Created by Blimp Design
+                    </p>
+                </div> <!-- div vis 1 main image ends here -->
+                <div class="col-lg-5 center-block pull-left"> 
+                    <img class="img-responsive center-block" src="../images/visualAnalytics/vis2.PNG"/>
+                    <br>
+                    <p class="text-center">
+                        <a href="https://public.tableau.com/profile/balazs.krich#!/vizhome/Whatmovieshouldwewatchtonight/Opinionmeter" target="_blank"> What movie should we watch tonight? </a>
+                        <br>
+                        Created by DataEast
+                    </p>
+                </div> <!-- div vis 2 main image ends here -->
+
+                <div class="col-lg-2 pull-right text-center">
+                    <h4 style="color: #009999; font-weight: bold;"> My Contribution </h4>
+                    <p> Literature Review </p>
+                    <p> Heuristic Evaluation </p>
+                    <p> Data Modelling </p>
+                    <p> Usability Evaluation </p>
+                </div> <!-- div contributions ends here -->
+                <div class="col-lg-2 pull-right text-center">
+                    <br>
+                    <h4 style="color: #009999; font-weight: bold;"> Download Resources </h4>
+                    <p><a href="../reports/Report_Visualization_for_movie_search.pdf" target="_blank">Report</a></p>
+                </div>
+                
             </div>
             <div class="col-md-offset-1 col-lg-10">
                 <h3 id="summary" class="sectionTitle">Problem Statement</h3>
                 <p class="text-justify">
-                Moral Distress occurs when an individual’s moral integrity is seriously compromised, either because one feels unable to act in accordance with core values and obligations, or attempted actions fail to achieve the desired outcome. Dr. Lucia aims in providing a healthy environment where critical care nurses make their optimal contributions to patients and families. In this attempt, they are looking to develop a solution which will enable the nurses to record the level of distress they have been experiencing during the past week. There are many contributing factors to this feeling of Moral Distress such as Clinical Triggers, Internal Factors, Communication and Interpersonal issues, Institutional and Environmental factors, Legal and Regulatory factors etc.
-                Dr. Lucia Wocial, an Ethicist Nurse Researcher, is mentoring us on the project. Her research combines ethics and distress amongst the nurse community and studies their implications on the behavior. Our initial meetings with her shaped our understanding of the problem space. To dig more, we reviewed more research papers that Dr. Lucia provided us and we reviewed a few on our own to understand where the technology stand in helping address the stress issues.  
+                Many times we have got into a situation where finding a good movie to watch is a trouble. We spend hours searching for one good movie and the search is often tiring proving it to be a bad choice. Hence, we desired to have a tool which could provide helpful information for us to pick a movie to match our taste based on personal interests.
+                </p>
+                <h5 class="iconListText">Visualizations:</h5>
+                <p class="text-justify">
+                    <ol>
+                        <li><a href="http://iibh.apphb.com/" target="_blank">What are these pretty circles?</a></li>
+                        <li><a href="https://public.tableau.com/profile/balazs.krich#!/vizhome/Whatmovieshouldwewatchtonight/Opinionmeter" target="_blank">What movie should we watch tonight?</a></li>
+                    </ol>
+                </p>
+                <h5 class="iconListText">Datasets:</h5>
+                <p class="text-justify">
+                The two visualization share the same dataset but visualize the data in a different way. Both the visualizations are based on the two datasets mentioned below:
+                    <ol>
+                        <li><a href="http://infobawards.s3.amazonaws.com/hollywood_plots.pdf" target="_blank">A breakdown of the 22 types of stories</a></li>
+                        <li><a href="https://docs.google.com/spreadsheets/d/1RMBdXYCrI_8S6wlTicmGbAXuh1TnnbCG6vQkZ6hOyf8/edit?authkey=CPuZiLcG#gid=29" target="_blank"> Hollywood budget data which have been compiled by “Information is Beautiful” </a></li>
+                    </ol>
+                </p>
+                <h5 class="iconListText"> Problem to address: </h5>
+                Through this Evaluation Study, we aimed to find the most efficient way for the users to be able to choose a movie. We will analyse the different elements of interaction and the best way to present it to the user. The two visualisations will serve as a basis for providing the users with two versions of interactions. So the overall goal would be to come up with a design which would be more intuitive, appealing, save user’s time in search, and give more satisfactory results to the user based on their feedback.
                 </p>
             </div> <!-- summary ends -->
 
@@ -150,10 +185,11 @@
         
             <div class="col-md-offset-1 col-lg-10">
                 <h3 id="interviews"  class="sectionTitle">Interviews</h3>
-                <p class="text-justify">
-                 Meetings with Dr. Lucia and the literature review done in the initial phase gave us the business requirements. On the basis of that, we designed our interview sessions. This was a phase of discovery for us as a team. We decided to go with semistructured interviews along with a survey to gather usage of technology and what are the major contributing factors towards Moral Distress. Also, one of the question we deliberately added to the survey was to understand if the nurses are willing to share their experience with others. We were taken aback by their experiences when they felt moral distress. How much pain they go through on some of the days and we are so ignorant about it. Some of the insights that we got from this data gathering technique were quite surprising and completely opposite to Dr. Lucia's research: 
-                </p>
-                <!-- interviews para ends -->
+                <div class="col-md-12 center-block">
+                    <p class="text-justify">
+                     Meetings with Dr. Lucia and the literature review done in the initial phase gave us the business requirements. On the basis of that, we designed our interview sessions. This was a phase of discovery for us as a team. We decided to go with semistructured interviews along with a survey to gather usage of technology and what are the major contributing factors towards Moral Distress. Also, one of the question we deliberately added to the survey was to understand if the nurses are willing to share their experience with others. We were taken aback by their experiences when they felt moral distress. How much pain they go through on some of the days and we are so ignorant about it. Some of the insights that we got from this data gathering technique were quite surprising and completely opposite to Dr. Lucia's research: 
+                    </p>
+                </div><!-- interviews para ends -->
                 <div class="col-md-12">
                     <a href="#">
                         <img class="img-responsive center-block" src="../images/mdt/interviewDemographics.png" alt="Interview Demographics">
