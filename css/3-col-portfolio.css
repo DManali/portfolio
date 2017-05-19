@@ -97,6 +97,20 @@ footer {
 	font-weight: bold; 	
 }
 
+.navigation{
+	background-color: #FFCC33;
+}
+
+.topNavigation{
+	background-color: #333;
+	color: #FFCC33;
+}
+
 a:active{
 	color: #FFCC00;
+}
+
+a:disabled{
+	background-color: #333;
+	color: #333;
 }
