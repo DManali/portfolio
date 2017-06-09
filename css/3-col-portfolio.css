@@ -114,3 +114,40 @@ a:disabled{
 	background-color: #333;
 	color: #333;
 }
+
+.bgArt{
+	background-color: #cda400;
+}
+
+.bgCoffee{
+	background-image: url("../images/coffee.jpg");
+}
+
+.bgAdventure{
+	background-color: #0074a6;
+	color: #ffcc00;
+}
+
+.bgWork{
+	background-color: #333;
+	color: #fff;
+}
+
+.photoborder{
+	border-style:  solid;
+	border-color: #fff;
+	border-width: 4px;
+}
+
+.divborderYellow{
+	border-style:  solid;
+	border-color: #ffcc00;
+	border-width: 1px;
+}
+
+
+.divborderBlack{
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
+}
