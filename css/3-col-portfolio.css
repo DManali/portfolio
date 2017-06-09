@@ -123,6 +123,16 @@ a:disabled{
 	border-width: 2px;
 }
 
+.bgphoto{
+	background-color: #4d4d4d;
+}
+
+.divRotate{
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg); /* Standard syntax */
+}
+
 .bgAdventure{
 	background-color: #ff9933;
 	border-style:  solid;
