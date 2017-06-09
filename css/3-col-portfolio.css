@@ -116,33 +116,31 @@ a:disabled{
 }
 
 .bgArt{
-	background-color: #cda400;
-}
-
-.bgCoffee{
-	background-image: url("../images/coffee.jpg");
+	background-color: #ffcc00;
+	color: #333;
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
 }
 
 .bgAdventure{
-	background-color: #0074a6;
-	color: #ffcc00;
+	background-color: #ff9933;
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
 }
 
 .bgWork{
-	background-color: #333;
-	color: #fff;
+	background-color: #ffcc66;
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
 }
 
 .photoborder{
 	border-style:  solid;
-	border-color: #fff;
+	border-color: #595959;
 	border-width: 4px;
-}
-
-.divborderYellow{
-	border-style:  solid;
-	border-color: #ffcc00;
-	border-width: 1px;
 }
 
 
