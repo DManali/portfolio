@@ -124,7 +124,13 @@ a:disabled{
 }
 
 .bgphoto{
-	background-color: #4d4d4d;
+	background-color: #595959;
+}
+
+hr{
+	background-color: #595959;
+	color: #595959;
+	height: 1px;
 }
 
 .divRotate{
@@ -134,14 +140,15 @@ a:disabled{
 }
 
 .bgAdventure{
-	background-color: #ff9933;
+	background-color:  #ffaa00;
 	border-style:  solid;
 	border-color: #595959;
 	border-width: 2px;
 }
 
 .bgWork{
-	background-color: #ffcc66;
+	/*background-color: #ffcc66;*/
+	background-color: #ffcc39;
 	border-style:  solid;
 	border-color: #595959;
 	border-width: 2px;
@@ -149,8 +156,8 @@ a:disabled{
 
 .photoborder{
 	border-style:  solid;
-	border-color: #595959;
-	border-width: 4px;
+	border-color: #333;
+	border-width: 1px;
 }
 
 
