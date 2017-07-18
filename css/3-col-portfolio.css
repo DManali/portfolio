@@ -116,7 +116,7 @@ a:disabled{
 }
 
 .bgArt{
-	background-color: #ffcc00;
+	background-color: #ffaa00;
 	color: #333;
 	border-style:  solid;
 	border-color: #595959;
@@ -124,7 +124,7 @@ a:disabled{
 }
 
 .bgphoto{
-	background-color: #595959;
+	background-color: #F35B69;
 }
 
 hr{
@@ -140,7 +140,7 @@ hr{
 }
 
 .bgAdventure{
-	background-color:  #ffaa00;
+	background-color: #33cccc; /* #ffaa00;*/
 	border-style:  solid;
 	border-color: #595959;
 	border-width: 2px;
@@ -148,7 +148,7 @@ hr{
 
 .bgWork{
 	/*background-color: #ffcc66;*/
-	background-color: #ffcc39;
+	background-color: #00ccff;
 	border-style:  solid;
 	border-color: #595959;
 	border-width: 2px;
