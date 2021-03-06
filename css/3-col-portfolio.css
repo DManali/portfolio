@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+font-family: 'Roboto', sans-serif;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+navbar-header, nav, navbar-nav, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	font-size: 11pt;
+}
+
+.page-header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	padding-bottom: 9px;
+    margin: 70px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+footer {
+ 	font-family: 'Roboto', sans-serif;   
+    font-weight: 300;
+    padding: 10px;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+.pageNavigation{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	font-size: 12pt;
+}
+
+.toTop{
+	position: fixed;
+	bottom: 0;
+}
+
+.aboutMe{
+	margin: 0 auto;
+}
+
+.iconList{
+	list-style: none;
+}
+
+.projectImage {
+	
+	height: 250px;
+	display: block;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.projectTitle{
+	color: #00ACC1;
+}
+
+.sectionTitle{
+	color: #0097A7;
+	font-weight: bold; 
+}
+
+.iconListText{
+	color: #FFAA00;
+	font-weight: bold;
+}
+
+.subSectionTitle{
+	color: #007600;
+	font-weight: bold; 	
+}
+
+.navigation{
+	background-color: #FFCC33;
+}
+
+.topNavigation{
+	background-color: #333;
+	color: #FFCC33;
+}
+
+a:active{
+	color: #FFCC00;
+}
+
+a:disabled{
+	background-color: #333;
+	color: #333;
+}
+
+.bgArt{
+	background-color: #ffaa00;
+	color: #333;
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
+}
+
+.bgphoto{
+	background-color: #595959;
+}
+
+hr{
+	background-color: #595959;
+	color: #595959;
+	height: 1px;
+}
+
+.divRotate{
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg); /* Standard syntax */
+}
+
+.bgAdventure{
+	background-color: #33cccc; /* #ffaa00;*/
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
+}
+
+.bgWork{
+	/*background-color: #ffcc66;*/
+	background-color: #00ccff;
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
+}
+
+.photoborder{
+	border-style:  solid;
+	border-color: #333;
+	border-width: 1px;
+}
+
+
+.divborderBlack{
+	border-style:  solid;
+	border-color: #595959;
+	border-width: 2px;
+}
+
+blockquote {
+border:none;
+margin-bottom:-30px;
+position: relative; 
+max-width: 600px;
+    margin: 0 auto; 
+    padding-left: 0.4em; 
+}
+
+blockquote h3 {
+    font-size:21px;
+}
+
+blockquote h3:before { 
+    content: "\201C";
+    font-weight: bold;
+    font-size:100px;
+    color:#1CADE4;
+    position: absolute; 
+    top: -0.2em;
+    left: -0.5em; 
+    font-family: 'Georgia'; 
+} 
+blockquote h3:after { 
+    content: "\201D";
+    font-weight: bold;
+    font-size:100px;
+    color:#1CADE4;
+    position: absolute; 
+    bottom: -0.6em;
+    right: 0; 
+    font-family: 'Georgia'; 
+}
